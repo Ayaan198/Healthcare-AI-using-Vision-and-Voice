@@ -1,6 +1,6 @@
 # 🩺 Healthcare AI (Vision + Voice)
 
-An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. Users can upload medical images (like skin allergies), ask questions via voice input, and receive AI-powered medical insights through both voice and text responses. This AI-powered assistant combines generative AI technologies to provide personalized medical guidance through text, image, and voice inputs."
+An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. Users can upload medical images (like skin allergies), ask questions via voice input, and receive AI-powered medical insights through both voice and text responses. This AI-powered assistant combines generative AI technologies to provide personalized medical guidance through text, image, and voice inputs.
 
 ## 🚀 Demo
 
