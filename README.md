@@ -54,19 +54,19 @@ http://localhost:7860
 ## 💻 Technologies used
 
 ### AI Models:
-- **Meta Llama3 Vision 90B** (multimodal understanding)
-- **OpenAI Whisper** (speech-to-text)
-- **ElevenLabs** (text-to-speech voice)
+- **meta-llama/llama-4-scout-17b-16e-instruct** (Advanced multimodal AI for text and medical image analysis.)
+- **OpenAI Whisper** (Speech-To-Text transcription)
+- **ElevenLabs** (Realistic Text-To-Speech synthesis)
 
 ### Framework:
-- **Gradio** (web interface)
-- **Python 3.12+**
-- **Pipenv** (dependency management)
+- **Gradio** (Interactive web interface)
+- **Python 3.12+** (Core programming language)
+- **Pipenv** (Virtual environment & dependency management)
 
 ### Libraries:
-- **ffmpeg** (Audio format conversion for speech processing pipelines.)
+- **ffmpeg** (Audio format conversion for speech processing.)
 - **portaudio** (Real-time microphone and speaker audio handling.)
-- **pygame** (Audio playback control in CLI for generated speech responses.)
+- **pygame** (Audio playback control in CLI for generated speech responses for Windows)
 
 
 ## 🤝 Contribution Guidelines
