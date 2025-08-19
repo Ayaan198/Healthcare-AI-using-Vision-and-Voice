@@ -12,8 +12,6 @@ An intelligent medical chatbot with multimodal capabilities including vision ana
 
 ## 🧐 Features
 
-Here are some of the project's best features:
-
 - 🧠 **AI-Powered Multimodal Assistant** – Processes text, images, and speech
 - 🎙️ **Speech-to-Text** – Powered by OpenAI's Whisper model for accurate transcription
 - 🔊 **Text-to-Speech** – Uses ElevenLabs for realistic medical assistant responses
@@ -57,14 +55,6 @@ python gradio_app.py
 http://localhost:7860
 ```
 
-## 🍰 Contribution Guidelines
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/NewFeature`)
-3. Commit changes (`git commit -m 'Add NewFeature'`)
-4. Push to branch (`git push origin feature/NewFeature`)
-5. Open Pull Request
-
 ## 💻 Built with
 
 **Technologies used in the project:**
@@ -83,7 +73,15 @@ http://localhost:7860
 - **ffmpeg**
 - **portaudio**
 
-## 💖 Like my work?
+## 🍰 Contribution Guidelines
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/NewFeature`)
+3. Commit changes (`git commit -m 'Add NewFeature'`)
+4. Push to branch (`git push origin feature/NewFeature`)
+5. Open Pull Request
+
+## 👨‍💻 Like my work?
 
 **Issues:** [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
 
