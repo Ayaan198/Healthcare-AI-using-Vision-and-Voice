@@ -11,7 +11,7 @@ An intelligent medical chatbot with multimodal capabilities including vision ana
 - 🧠 **AI-Powered Multimodal Assistant** – Processes text, images, and speech
 - 🎙️ **Speech-to-Text** – Powered by OpenAI's Whisper model for accurate transcription
 - 🔊 **Text-to-Speech** – Uses ElevenLabs for realistic medical assistant responses
-- 🔬 **Vision Understanding** – Leverages Meta's Llama 3 Vision-90B for analyzing medical images
+- 🔬 **Vision Understanding** – Leverages Meta's Llama 4 Scout 17B for analyzing medical images
 - 🌐 **Interactive Gradio App** – User-friendly interface for seamless communication
 - 🏥 **Healthcare Applications** – Symptom checking, preliminary diagnosis guidance, patient engagement
 
