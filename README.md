@@ -83,10 +83,11 @@ http://localhost:7860
 
 ## 👨‍💻 Like my work?
 
+⭐ **Star this repository if you found it helpful!**
+
+
 **Issues:** [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
 
 **Email:** ayanbate22@gmail.com
 
 ---
-
-⭐ **Star this repository if you found it helpful!**
