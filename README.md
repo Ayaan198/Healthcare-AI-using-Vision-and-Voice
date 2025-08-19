@@ -1,9 +1,5 @@
 # 🩺 Healthcare AI (Vision + Voice)
 
-<p align="center">
-  <img src="https://socialify.git.ci/Ayaan198/Healthcare-AI-using-Vision-and-Voice/image?font=Jost&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="project-image">
-</p>
-
 An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. This AI-powered assistant leverages generative AI technologies to provide personalized medical guidance through text, image, and voice inputs.
 
 ## 🚀 Demo
