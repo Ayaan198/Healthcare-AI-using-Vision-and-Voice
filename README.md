@@ -73,7 +73,7 @@ http://localhost:7860
 - **pygame** (Audio playback control in CLI for generated speech responses.)
 
 
-## 🍰 Contribution Guidelines
+## 🤝 Contribution Guidelines
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/NewFeature`)
