@@ -54,7 +54,7 @@ http://localhost:7860
 ## 💻 Technologies used
 
 ### AI Models:
-- **meta-llama/llama-4-scout-17b-16e-instruct** (Multimodal AI for text & medical image analysis.)
+- **Meta Llama 4 Scout 17B** (Multimodal AI for text & medical image analysis.)
 - **OpenAI Whisper** (Speech-To-Text transcription)
 - **ElevenLabs** (Realistic Text-To-Speech synthesis)
 
