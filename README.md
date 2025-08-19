@@ -55,23 +55,23 @@ python gradio_app.py
 http://localhost:7860
 ```
 
-## 💻 Built with
-
-**Technologies used in the project:**
+## 💻 Technologies used
 
 ### AI Models:
 - **Meta Llama3 Vision 90B** (multimodal understanding)
 - **OpenAI Whisper** (speech-to-text)
-- **gTTS & ElevenLabs** (text-to-speech)
+- **ElevenLabs** (text-to-speech voice)
 
 ### Framework:
 - **Gradio** (web interface)
-- **Python 3.8+**
+- **Python 3.12+**
 - **Pipenv** (dependency management)
 
 ### Libraries:
-- **ffmpeg**
-- **portaudio**
+- **ffmpeg** (Audio format conversion for speech processing pipelines.)
+- **portaudio** (Real-time microphone and speaker audio handling.)
+- **pygame** (Audio playback control in CLI for generated speech responses.)
+
 
 ## 🍰 Contribution Guidelines
 
