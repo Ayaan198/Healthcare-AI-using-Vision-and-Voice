@@ -2,7 +2,8 @@
 
 An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. Users can upload medical images (like skin allergies), ask questions via voice input, and receive AI-powered medical insights through both voice and text responses. This AI-powered assistant combines generative AI technologies to provide personalized medical guidance through text, image, and voice inputs.
 
-##Tech-Stack
+## Tech-Stack
+
 ![Meta LLaMA 4](https://img.shields.io/badge/-Meta%20LLaMA%204-1877F2)
 ![Scout 17B](https://img.shields.io/badge/-Scout%2017B-ff4500)
 ![OpenAI Whisper](https://img.shields.io/badge/-OpenAI%20Whisper-000000)
