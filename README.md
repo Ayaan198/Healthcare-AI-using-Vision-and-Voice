@@ -4,6 +4,18 @@ An intelligent medical chatbot with multimodal capabilities including vision ana
 
 ## 🦾 Tech-Stack
 
+
+![Meta LLaMA 4](https://img.shields.io/badge/Meta%20LLaMA%204-1877F2?style=for-the-badge&logo=meta&logoColor=white)
+![Scout 17B](https://img.shields.io/badge/Scout%2017B-FF4500?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-FF6F00?style=for-the-badge&logo=google-voice&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![PortAudio](https://img.shields.io/badge/PortAudio-4CAF50?style=for-the-badge&logo=audio&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-000000?style=for-the-badge&logo=pygame&logoColor=white)
+
+
+
 ![Meta LLaMA 4](https://img.shields.io/badge/-Meta%20LLaMA%204-1877F2)
 ![Scout 17B](https://img.shields.io/badge/-Scout%2017B-ff4500)
 ![OpenAI Whisper](https://img.shields.io/badge/-OpenAI%20Whisper-000000)
