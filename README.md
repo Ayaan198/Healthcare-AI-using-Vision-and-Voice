@@ -2,7 +2,7 @@
 
 An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. Users can upload medical images (like skin allergies), ask questions via voice input, and receive AI-powered medical insights through both voice and text responses. This AI-powered assistant combines generative AI technologies to provide personalized medical guidance through text, image, and voice inputs.
 
-## Tech-Stack
+## 🦾 Tech-Stack
 
 ![Meta LLaMA 4](https://img.shields.io/badge/-Meta%20LLaMA%204-1877F2)
 ![Scout 17B](https://img.shields.io/badge/-Scout%2017B-ff4500)
@@ -62,7 +62,7 @@ python gradio_app.py
 http://localhost:7860
 ```
 
-## 💻 Technologies used
+## 💻 Technologies & Uses
 
 ### AI Models:
 - **Meta Llama 4 Scout 17B** (Multimodal AI for text & medical image analysis.)
@@ -93,8 +93,8 @@ http://localhost:7860
 ⭐ **Star this repository if you found it helpful!**
 
 
-**Issues:** [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
+**Facing Issues?:** [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
 
-**Email:** ayanbate22@gmail.com
+**Contact me:** ayanbate22@gmail.com
 
 ---
