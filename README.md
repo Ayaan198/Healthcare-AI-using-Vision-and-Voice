@@ -1,4 +1,4 @@
-# 🩺 Welcome to the Healthcare AI (Vision + Voice) Assistant!
+# 🩺 Healthcare AI (Vision + Voice) Assistant!
 In this project, I developed an **AI-powered medical assistant** that combines **multimodal capabilities** (text, image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice**, and **receive AI-generated medical insights** through both text and speech.
 
 This solution is designed for **patients, healthcare researchers, and developers** exploring the use of **generative AI in medical assistance** for symptom analysis and preliminary health guidance.
