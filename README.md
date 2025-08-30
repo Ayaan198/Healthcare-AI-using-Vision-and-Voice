@@ -1,5 +1,5 @@
 # 🩺 Welcome to the Healthcare AI (Vision + Voice) Assistant!
-In this project, I developed an **AI-powered medical assistant** that combines **multimodal capabilities** (image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice**, and **receive AI-generated medical insights** through both text and speech.
+In this project, I developed an **AI-powered medical assistant** that combines **multimodal capabilities** (text, image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice**, and **receive AI-generated medical insights** through both text and speech.
 
 This solution is designed for **patients, healthcare researchers, and developers** exploring the use of **generative AI in medical assistance** for symptom analysis and preliminary health guidance.
 
@@ -34,11 +34,20 @@ This solution is designed for **patients, healthcare researchers, and developers
 ```plaintext
 Healthcare-AI-using-Vision-and-Voice/
 │
-├── gradio_app.py               # Main application script
-├── requirements.txt            # Python dependencies
-├── .env.example                # Environment variable template
-├── assets/                     # Audio and image assets
-└── README.md                   # Project documentation
+├── gradio_app.py               # Main Gradio web application
+├── healthcare_AI_brain.py      # Core AI logic and model integration
+├── doctor_voice.py             # Text-to-speech for doctor responses
+├── patient_voice.py            # Speech-to-text for patient input
+├── Pipfile                     # Pipenv dependency management
+├── pipenv.bat                  # Windows batch file for Pipenv
+├── .gitignore                  # Git ignore rules
+├── README.md                   # Project documentation
+│
+├── Audio Files:
+├── doctor_voice.mp3            # Sample doctor voice output
+├── patient_voice.mp3           # Sample patient voice input
+├── results.mp3                 # Generated AI response audio
+└── audio_45f937e8_1755607947.mp3  # Temporary audio file
 ```
 
 ---
@@ -47,7 +56,7 @@ Healthcare-AI-using-Vision-and-Voice/
 ### Prerequisites
 - Python 3.8+ (Recommended: 3.12+)
 - Pipenv for dependency management
-- FFmpeg and PortAudio installed on your system
+- FFmpeg & PortAudio installed on your system
 
 ### 1. Clone the Repository
 ```bash
