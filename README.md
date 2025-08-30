@@ -1,20 +1,13 @@
 # 🩺 Welcome to the Healthcare AI (Vision + Voice) Assistant!
-In this project, we developed an **AI-powered medical assistant** that combines **multimodal capabilities** (text, image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice or text**, and **receive AI-generated medical insights** through both text and speech.
+In this project, I developed an **AI-powered medical assistant** that combines **multimodal capabilities** (image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice**, and **receive AI-generated medical insights** through both text and speech.
 
 This solution is designed for **patients, healthcare researchers, and developers** exploring the use of **generative AI in medical assistance** for symptom analysis and preliminary health guidance.
 
 ---
 
-## 🧠 The Team:
-| Member             | Position               | Responsibilities                        |
-| ------------------- | ---------------------- | --------------------------------------- |
-| **Ayaan Ali Bate**  | Full Stack + AI        | AI model integration, Voice & Vision pipeline |
-
----
-
 ## 🚀 Key Features
 ### Multimodal AI Interaction
-- **Text + Voice Input**: Ask health-related queries through speech or text.
+- **Voice Input**: Ask health-related queries through speech.
 - **Image Uploads**: Analyze medical images such as skin conditions for early detection.
 - **AI Responses**: Provides AI-powered health guidance in text and voice format.
 
@@ -54,7 +47,7 @@ Healthcare-AI-using-Vision-and-Voice/
 ### Prerequisites
 - Python 3.8+ (Recommended: 3.12+)
 - Pipenv for dependency management
-- FFmpeg installed on your system
+- FFmpeg and PortAudio installed on your system
 
 ### 1. Clone the Repository
 ```bash
@@ -94,7 +87,7 @@ http://localhost:7860
 ---
 
 ## 👨‍💻 Contributions
-We welcome contributions!
+I would welcome contributions!
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/NewFeature`)
 3. Commit your changes (`git commit -m 'Add NewFeature'`)
