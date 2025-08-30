@@ -1,100 +1,114 @@
-# 🩺 Healthcare AI (Vision + Voice)
+# 🩺 Welcome to the Healthcare AI (Vision + Voice) Assistant!
+In this project, we developed an **AI-powered medical assistant** that combines **multimodal capabilities** (text, image, and voice) to provide intelligent healthcare interactions. The system allows users to **upload medical images**, **ask questions via voice or text**, and **receive AI-generated medical insights** through both text and speech.
 
-An intelligent medical chatbot with multimodal capabilities including vision analysis, voice interaction, and comprehensive health consultations. Users can upload medical images (like skin allergies), ask questions via voice input, and receive AI-powered medical insights through both voice and text responses. This AI-powered assistant combines generative AI technologies to provide personalized medical guidance through text, image, and voice inputs.
+This solution is designed for **patients, healthcare researchers, and developers** exploring the use of **generative AI in medical assistance** for symptom analysis and preliminary health guidance.
 
-## 🦾 Tech-Stack
+---
 
-![Meta LLaMA 4](https://img.shields.io/badge/Meta%20LLaMA%204-1877F2?style=for-the-badge&logo=meta&logoColor=white)
-![Scout 17B](https://img.shields.io/badge/Scout%2017B-FF4500?style=for-the-badge&logo=openai&logoColor=white)
-![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-FF6F00?style=for-the-badge&logo=google-voice&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
-![PortAudio](https://img.shields.io/badge/PortAudio-4CAF50?style=for-the-badge&logo=audio&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-000000?style=for-the-badge&logo=pygame&logoColor=white)
+## 🧠 The Team:
+| Member             | Position               | Responsibilities                        |
+| ------------------- | ---------------------- | --------------------------------------- |
+| **Ayaan Ali Bate**  | Full Stack + AI        | AI model integration, Voice & Vision pipeline |
 
-## 🚀 Demo
+---
 
-*[Add a demo video here]*
+## 🚀 Key Features
+### Multimodal AI Interaction
+- **Text + Voice Input**: Ask health-related queries through speech or text.
+- **Image Uploads**: Analyze medical images such as skin conditions for early detection.
+- **AI Responses**: Provides AI-powered health guidance in text and voice format.
 
-## 🧐 Features
+### Speech Processing
+- **Speech-to-Text**: Uses OpenAI Whisper for accurate transcription.
+- **Text-to-Speech**: Realistic voice responses powered by ElevenLabs.
 
-- 🧠 **AI-Powered Multimodal Assistant** – Processes text, images, and speech
-- 🎙️ **Speech-to-Text** – Powered by OpenAI's Whisper model for accurate transcription
-- 🔊 **Text-to-Speech** – Uses ElevenLabs for realistic medical assistant responses
-- 🔬 **Vision Understanding** – Leverages Meta's Llama 4 Scout 17B for analyzing medical images
-- 🌐 **Interactive Gradio App** – User-friendly interface for seamless communication
-- 🏥 **Healthcare Applications** – Symptom checking, preliminary diagnosis guidance, patient engagement
+### Interactive Interface
+- **Gradio Web App** for seamless interaction.
+- **CLI Mode** for audio-based feedback on Windows systems.
 
-## 🛠️ Installation Steps
+---
 
-### 1. Prerequisites
-```bash
-Python 3.8+
-pipenv
+## 🛠️ Tech Stack
+- **AI Models**: Meta LLaMA 4, Scout 17B, OpenAI Whisper, ElevenLabs
+- **Framework**: Gradio
+- **Language**: Python 3.12+
+- **Audio Handling**: FFmpeg, PortAudio, Pygame
+- **Environment Management**: Pipenv
+
+---
+
+## 📂 Project Structure
+```plaintext
+Healthcare-AI-using-Vision-and-Voice/
+│
+├── gradio_app.py               # Main application script
+├── requirements.txt            # Python dependencies
+├── .env.example                # Environment variable template
+├── assets/                     # Audio and image assets
+└── README.md                   # Project documentation
 ```
 
-### 2. Clone the Repository
+---
+
+## 🚀 Getting Started
+### Prerequisites
+- Python 3.8+ (Recommended: 3.12+)
+- Pipenv for dependency management
+- FFmpeg installed on your system
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice.git
 cd Healthcare-AI-using-Vision-and-Voice
 ```
 
-### 3. Install dependencies with pipenv
+### 2. Install Dependencies
 ```bash
 pipenv install
 ```
 
-### 4. Set up environment variables
-Create `.env` file with your API keys:
-```bash
+### 3. Configure Environment Variables
+Create a `.env` file in the root directory and add:
+```env
 ELEVENLABS_API_KEY=your_key
 GROQ_API_KEY=your_key
 ```
 
-### 5. Run application
+### 4. Run the Application
 ```bash
 python gradio_app.py
 ```
 
-### 6. Access at
+Once running, access the app at:
 ```
 http://localhost:7860
 ```
 
-## 💻 Technologies & Uses
+---
 
-### AI Models:
-- **Meta Llama 4 Scout 17B** (Multimodal AI for text & medical image analysis.)
-- **OpenAI Whisper** (Speech-To-Text transcription)
-- **ElevenLabs** (Realistic Text-To-Speech synthesis)
-
-### Framework:
-- **Gradio** (Interactive web interface)
-- **Python 3.12+** (Core programming language)
-- **Pipenv** (Virtual environment & dependency management)
-
-### Libraries:
-- **ffmpeg** (Audio format conversion for speech processing.)
-- **portaudio** (Real-time microphone and speaker audio handling.)
-- **pygame** (Audio playback control in CLI for generated speech responses for Windows)
-
-
-## 🤝 Contribution Guidelines
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/NewFeature`)
-3. Commit changes (`git commit -m 'Add NewFeature'`)
-4. Push to branch (`git push origin feature/NewFeature`)
-5. Open Pull Request
-
-## 👨‍💻 Like my work?
-
-⭐ **Star this repository if you found it helpful!**
-
-
-**Facing Issues?:** [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
-
-**Contact me:** ayanbate22@gmail.com
+## ✅ Future Enhancements
+- Integration with **EHR (Electronic Health Records)** systems.
+- **Mobile App** support for Android and iOS.
+- **Real-time video consultations** with integrated AI.
 
 ---
+
+## 👨‍💻 Contributions
+We welcome contributions!
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'Add NewFeature'`)
+4. Push the branch (`git push origin feature/NewFeature`)
+5. Create a pull request
+
+⭐ **Star this repository if you found it useful!**
+
+---
+
+## 📧 Contact
+**Email**: ayanbate22@gmail.com  
+**Issues**: [GitHub Issues](https://github.com/Ayaan198/Healthcare-AI-using-Vision-and-Voice/issues)
+
+---
+
+> **Disclaimer**: This AI assistant is for educational and research purposes only. Always consult with qualified healthcare professionals for medical advice and diagnosis.
